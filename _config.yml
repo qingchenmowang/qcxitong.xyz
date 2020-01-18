@@ -119,5 +119,7 @@ search:
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:qingchenmowang/qingchenmowang.github.io.git
+  repo: 
+    github: git@github.com:qingchenmowang/qingchenmowang.github.io.git
+    coding: git@e.coding.net:qcxitong/qingchen.git
   branch: master
