@@ -1,4 +1,4 @@
-# Hexo Configuration
+﻿# Hexo Configuration
 ## Docs: https://hexo.io/docs/configuration.html
 ## Source: https://github.com/hexojs/hexo/
 
@@ -130,6 +130,6 @@ deploy:
 - type: git
   repo: 
     github: git@github.com:qingchenmowang/qingchenmowang.github.io.git
-    coding: git@e.coding.net:qcxitong/qingchen.git
+    
   branch: master
 - type: baidu_url_submitter ## 这是新加的
