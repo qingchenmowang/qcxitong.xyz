@@ -31,6 +31,10 @@ baidu_site_verification:
 # see http://zhanzhang.so.com/
 qihu360_site_verification:
 
+# Sougou Webmaster tools verification setting
+# see http://zhanzhang.sogou.com/
+sougou_site_verification:
+
 # ---------------------------------------------------------------
 # Menu config
 # ---------------------------------------------------------------
@@ -43,10 +47,8 @@ qihu360_site_verification:
 menu:
   home: / || home
   archives: /archives/ || folder-open
-  categories: /categories/ || th
-  tags: /tags/ || tags
-  link: /like/ || link
-  # reading: /reading/ || book
+  # categories: /categories/ || th
+  # tags: /tags/ || tags
   # about: /about/ || user
   # xxx: /xxx/ || xxx
   # You can add a secondary menu like follow.
@@ -84,58 +86,87 @@ favicon:
 pwa:
   enable: false
   manifest: /manifest.json
-  theme_color: '#54bcff'
+  theme_color: "#54bcff"
+
+# Whether to show the button of dark mode.
+night_mode:
+  enable: true
+  # The button of switching to the night mode.
+  button:
+    # Color of button.
+    color: "#fafafa"
+    # Background color of button.
+    bg_color: "#8c8a8a"
+  # The icon that stand for day and night.
+  icon:
+    dark: 🌜
+    light: 🌞
+
+# The layout for sidebar and content of site.
+layout:
+  # The width of the content area in website.
+  content: 768px
+  # The width of the sidebar in website.
+  sidebar: 300px
+  # The width between the content and the sidebar.
+  content_sidebar_gap: 30px
+  # The padding property of the main tag.
+  # You can set it the same way you set the padding property of CSS.
+  main_padding:
+    # Screen width in: [768px, Infinity)
+    default: 20px
+    # Screen width in: [576px, 768px)
+    tablet: 15px
+    # Screen width in: [0px, 576px)
+    mobile: 10px
 
 header:
-  # Header height (Support for all types of CSS size units).
+  enable: true
+  # Whether to show on the some pages.
+  show_on:
+    # Whether to show on the article page.
+    post: true
+  # Height of the header. (Support for all types of CSS size units)
   height: 80%
-  # Header navigation bar height (Support for all types of CSS size units).
-  nav_height: 50px
   # Background image in the header.
   bg_image:
-    enable: turn
+    enable: false
     # In theme directory (source/images): /images/avatar.png
     # In site directory (source/uploads): /uploads/avatar.png
     # You can also use a link of image.
-    url: /assets/bg.jpg
-    # Mask effect of the background image.
+    url:
+  # Mask effect of the background image.
   mask:
     enable: false
     # Opacity of mask (value: 0 ~ 1).
     opacity: 0.5
+  nav:
+    # Height of the navigation bar. (Support for all types of CSS size units)
+    height: 50px
+    # Background color of the navigation bar.
+    bg_color: "#333"
   # The icon that prompt to scroll down.
   scroll_down_icon:
-    enable: true ## false
+    enable: false
     animation: true
 
-# Creative Commons 4.0 International License.
-creative_commons:
-  enable: true
-  # Available: BY | BY-SA | BY-ND | BY-NC | BY-NC-SA | BY-NC-ND.
-  # For details, please see: https://creativecommons.org/share-your-work/licensing-types-examples/
-  license: BY-NC-SA
-  # Show the CC license in the sidebar.
-  sidebar: true
-  # Show the CC license at the post bottom.
-  post: true
-  # You can set a language value if you prefer a translated version of CC license.
-  # Valid values of language: en, zh, etc.
-  # If not set, "en" will be used by default.
-  language:
-
-# Back to top button.
-back2top:
-  enable: true
-  icon:
-    # Icon name in FontAwesome, see: https://fontawesome.com/v4.7.0/icons/
-    # `rocket` is recommended.
-    name: rocket
-    # Rotation Angle of icon.
-    rotate: -45deg
-    # Please use quote to wrap value (All CSS size units are supported).
-    color: '#49b1f5'
-    # Colour when the mouse hovers it.
-    hover_color: '#fc6423'
+body:
+  # Background image in the body.
+  bg_image:
+    enable: false
+    # In theme directory (source/images): /images/avatar.png
+    # In site directory (source/uploads): /uploads/avatar.png
+    # You can also use a link of image.
+    url:
+    # Whether to fixed the background image.
+    fixed: true
+    # Whether to repeat the image as much as possible to cover the entire area.
+    repeat: false
+  # Mask effect of the background image.
+  mask:
+    enable: false
+    # Opacity of mask (value: 0 ~ 1).
+    opacity: 0.5
 
 # Footer of your site.
 footer:
@@ -170,7 +201,7 @@ footer:
     # Heart beat animation.
     animation: false
     # Please use quote to wrap value (All CSS size units are supported).
-    color: '#ff0000'
+    color: "#ff0000"
   # Hexo link (Powered by Hexo).
   powered:
     enable: true
@@ -191,6 +222,35 @@ footer:
     enable: false
     text:
 
+# Creative Commons 4.0 International License.
+creative_commons:
+  enable: true
+  # Available: BY | BY-SA | BY-ND | BY-NC | BY-NC-SA | BY-NC-ND.
+  # For details, please see: https://creativecommons.org/share-your-work/licensing-types-examples/
+  license: BY-NC-SA
+  # Show the CC license in the sidebar.
+  sidebar: true
+  # Show the CC license at the post bottom.
+  post: true
+  # You can set a language value if you prefer a translated version of CC license.
+  # Valid values of language: en, zh, etc.
+  # If not set, "en" will be used by default.
+  language:
+
+# Back to top button.
+back2top:
+  enable: true
+  icon:
+    # Icon name in FontAwesome, see: https://fontawesome.com/v4.7.0/icons/
+    # `rocket` is recommended.
+    name: rocket
+    # Rotation Angle of icon.
+    rotate: -45deg
+    # Please use quote to wrap value (All CSS size units are supported).
+    color: "#49b1f5"
+    # Colour when the mouse hovers it.
+    hover_color: "#fc6423"
+
 # ---------------------------------------------------------------
 # Sidebar config
 # ---------------------------------------------------------------
@@ -199,12 +259,10 @@ sidebar:
   enable: true
   # Sidebar position, available values: left | right.
   position: right
-  # Sidebar offset from top menubar (Only px units are supported).
+  # The distance from the top of the page when the sidebar is fixed (Only px units are supported).
   offsetTop: 30px
   # Horizon line.
   horizon_line: false
-  # Suggest: 240px ~ 300px
-  width: 280px
 
 author:
   enable: true
@@ -213,15 +271,15 @@ author:
     # In theme directory (source/images): /images/avatar.png
     # In site directory (source/uploads): /uploads/avatar.png
     # You can also use a link of image.
-    url: /assets/1.0.jpg
+    url: /images/avatar.png
     # If true, the avatar would be displayed in a circle.
-    rounded: true
+    rounded: false
     # The value should be chosen from 0 to 1.
     opacity: 1
     # Mouse hover animation, available value: turn | shake.
     animation: turn
   # Your favorite motto.
-  motto: 轻尘丶莫莣
+  motto: hello world
 
 # Social links.
 # Value before `||` delimiter is the target link.
@@ -239,11 +297,11 @@ social:
   # zhihu: https://www.zhihu.com/ || origin:知
   # wechat: yournumber || weixin
   # telegram: yournumber || telegram
-  qq: 304778602 || qq
+  # qq: yournumber || qq
   # xxx: xxx || (origin:)xxx
 
 social_setting:
-  enable: true
+  enable: false
   # Only show by icon.
   icon_only: true
 
@@ -276,9 +334,39 @@ feed:
 reading_progress:
   enable: true
   # Please use the quote to wrap value (All CSS size units are supported).
-  color: '#fc6423'
+  color: "#fc6423"
   # Support for all types of CSS size units.
   height: 1px
+
+# ---------------------------------------------------------------
+# Page config
+# ---------------------------------------------------------------
+
+codeblock:
+  # The style of code block.
+  # values:
+  #   - default
+  #   - simple
+  #   - carbon
+  style: default
+  # The theme of code highlight.
+  # values:
+  #   - light
+  #   - dark
+  #   - ocean
+  highlight: light
+  # Whether the code to newline.
+  word_wrap: false
+
+# Add a line below h1, h2.
+heading_line: true
+
+# Reward
+reward:
+  enable: false
+  # Fill in your QR Code for collecting money.
+  alipay:
+  wechat:
 
 # ---------------------------------------------------------------
 # Post config
@@ -340,6 +428,13 @@ post_widget:
     enable: true
     # Show the horizon line before the text of the end.
     horizon_line: true
+  # Article sharing
+  share:
+    enable: false
+    # The text displayed before the share button.
+    label: "Share to: "
+    # Optional value: qzone, qq, weibo, wechat, douban, linkedin, facebook, twitter, google
+    target: qzone, qq, weibo, wechat, douban, linkedin, facebook, twitter, google
 
 # Automatically retain article excerpt.
 auto_excerpt:
@@ -358,27 +453,7 @@ stick_top:
   # Rotation Angle of icon.
   rotate: 45deg
   # Please use the quote to wrap value (All CSS size units are supported).
-  color: '#999'
-
-# Code highlight.
-# values:
-#   - light
-#   - dark
-#   - ocean
-highlight_theme: light
-
-# Code wrap.
-code_word_wrap: false
-
-# Add a line below h1, h2.
-heading_line: true
-
-# Reward
-reward:
-  enable: true ## falus
-  # Fill in your QR Code for collecting money.
-  alipay: /assets/1.2.png
-  wechat: /assets/1.1.png
+  color: "#999"
 
 # ---------------------------------------------------------------
 # Comment config
@@ -545,9 +620,9 @@ canvas_nest:
   enable: false
   # Display on mobile or not
   onmobile: true
-  # RGB values, use ',' to separate
+  # RGB values, use "," to separate
   # Color for lines
-  color: '0,0,0'
+  color: "0,0,0"
   # The opacity of line: 0 ~ 1
   opacity: 0.6
   # The number of lines
@@ -601,7 +676,7 @@ zoom_image:
   enable: true
   # The color of mask.
   # Please use the quote to wrap value (All CSS size units are supported).
-  mask_color: 'rgba(0,0,0,0.6)'
+  mask_color: "rgba(0,0,0,0.6)"
 
 # If you are use "photos" attribute in the Front-matter,
 #   you can enable this to show images in waterfalls flow.
@@ -685,7 +760,7 @@ external_link:
     # `external-link` is recommended.
     name: external-link
     # Please use the quote to wrap value (All CSS size units are supported).
-    color: '#aaa'
+    color: "#aaa"
 
 # The shortcuts of the site.
 shortcuts:
@@ -699,8 +774,8 @@ shortcuts:
 # If not used, comment it or ignore it.
 tag_cloud:
   # Color for tag (please use the quote to wrap value, only support HEX).
-  start_color: '#a4d8fa'
-  end_color: '#49b1f5'
+  start_color: "#a4d8fa"
+  end_color: "#49b1f5"
   # Size for tag.
   min_size: 16
   max_size: 26
@@ -829,3 +904,11 @@ cdn:
   # Example:
   # pjax: //cdn.jsdelivr.net/npm/pjax@latest/pjax.min.js
   pjax:
+
+  # Using version: 1.0.16
+  # See: https://github.com/overtrue/share.js
+  # Example:
+  # share_js: //cdn.jsdelivr.net/npm/social-share.js@1.0.16/dist/js/social-share.min.js
+  # share_css: //cdn.jsdelivr.net/npm/social-share.js@1.0.16/dist/css/share.min.css
+  share_js:
+  share_css:

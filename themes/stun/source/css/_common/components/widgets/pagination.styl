@@ -5,7 +5,7 @@
 
   &-inner {
     padding: .8em 0;
-    background-color: $white;
+    background-color: var(--color-gray-150);
   }
 
   .space,
@@ -21,9 +21,7 @@
   .page-number {
     margin: 0 .5em;
     color: $pagination-item-color;
-    background-color: $pagination-item-bg-color;
-    transition-property: color, background-color;
-    transition-ease();
+    transition: color .2s ease, background-color .2s ease;
 
     &:hover {
       color: $pagination-item-hover-color;
@@ -44,8 +42,7 @@
     line-height: 1rem;
     vertical-align: middle;
     color: $pagination-arrow-color;
-    transition-property: color;
-    transition-ease();
+    transition: color .2s ease;
 
     &:hover {
       color: $pagination-arrow-hover-color;
@@ -63,18 +60,17 @@
   // Pagination of post.
   // ----------------------------------------
   &-post {
-    border-top: 1px solid $pagination-line-color;
+    border-top: 1px solid var(--color-gray-250);
     padding-top: 1.5rem;
 
     &-prev,
     &-next {
       width: 100%;
 
-      &__a {
+      a {
         color: $pagination-arrow-color;
-        word-wrap();
-        transition-property: color;
-        transition-ease();
+        break-word();
+        transition: color .2s ease;
 
         &:hover {
           color: $pagination-arrow-hover-color;

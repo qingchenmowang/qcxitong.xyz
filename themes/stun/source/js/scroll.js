@@ -1,44 +1,65 @@
 $(document).ready(function () {
+  var _CONFIG = window.CONFIG;
+  var _Stun = window.Stun;
+
+  var isHeaderEnable = _CONFIG.header && _CONFIG.header.enable;
+  var isShowHeaderOnPost = isHeaderEnable && _CONFIG.header.showOnPost;
   // The previous distance from the page to the top.
   var prevScrollTop = 0;
   var isNavFix = false;
   var isNavShow = true;
+  var isAnimation = false;
 
   function headerNavScroll () {
+    var isPostPage = !!$('#is-post').length;
+    var isNoHeader = !isHeaderEnable || (isPostPage && !isShowHeaderOnPost);
     var $headerNav = $('.header-nav');
-    var scrollTop = $(window).scrollTop();
-    var delta = scrollTop - prevScrollTop;
+    var scrollTop = Math.floor($(window).scrollTop());
+    var delta = Math.floor(scrollTop - prevScrollTop);
 
     if (scrollTop === 0) {
-      $headerNav.removeClass('fixed');
-      $headerNav.removeClass('slider-up');
-      $headerNav.addClass('slider-down');
-
+      if (isNoHeader) {
+        $headerNav.addClass('slider--clear');
+        isAnimation = false;
+      }
+      $headerNav.removeClass('header-nav--sticky');
+      $headerNav.removeClass('slider--up');
+      $headerNav.addClass('slider--down');
       isNavFix = false;
+      isNavShow = true;
     } else {
+      if (isNoHeader && scrollTop < $headerNav.height()) {
+        return false;
+      }
       if (!isNavFix) {
-        $headerNav.addClass('fixed');
-
+        $headerNav.addClass('header-nav--sticky');
         isNavFix = true;
       }
-
       var MIN_SCROLL_TO_CHANGE_NAV = 5;
       // Make the state of nav bar not change due to tiny scrolling.
       if (Math.abs(delta) > MIN_SCROLL_TO_CHANGE_NAV) {
-        if (isNavShow && delta > 0) {
-          $headerNav.removeClass('slider-down');
-          $headerNav.addClass('slider-up');
-
-          isNavShow = false;
-        } else if (!isNavShow && delta < 0) {
-          $headerNav.removeClass('slider-up');
-          $headerNav.addClass('slider-down');
-
-          isNavShow = true;
+        if (isNoHeader) {
+          if (!isAnimation) {
+            isAnimation = true;
+          } else {
+            $headerNav.removeClass('slider--clear');
+          }
+        }
+        if (delta > 0) {
+          if (isNavShow) {
+            $headerNav.removeClass('slider--down');
+            $headerNav.addClass('slider--up');
+            isNavShow = false;
+          }
+        } else {
+          if (!isNavShow) {
+            $headerNav.removeClass('slider--up');
+            $headerNav.addClass('slider--down');
+            isNavShow = true;
+          }
         }
       }
     }
-
     prevScrollTop = scrollTop;
   }
 
@@ -51,6 +72,7 @@ $(document).ready(function () {
       });
   }
 
+  var isBack2topEnable = _CONFIG.back2top && _CONFIG.back2top.enable;
   var isBack2topShow = false;
 
   // Back the page to top.
@@ -71,21 +93,32 @@ $(document).ready(function () {
     }
   }
 
-  // Initialization
-  headerNavScroll();
-  back2top();
-
-  $(window).on('DOMContentLoaded', back2top);
-  $(window).on('scroll', Stun.utils.throttle(function () {
-    headerNavScroll();
+  if (isBack2topEnable) {
+    // Initializaiton
     back2top();
-  }, 100));
 
-  $('#back2top').on('click', function () {
-    $('body').velocity('stop').velocity('scroll');
-  });
+    $('#back2top').on('click', function () {
+      $('body')
+        .velocity('stop')
+        .velocity('scroll');
+    });
+  }
 
-  Stun.utils.pjaxReloadScroll = function () {
+  // Initializaiton
+  headerNavScroll();
+
+  $(window).on(
+    'scroll',
+    _Stun.utils.throttle(function () {
+      headerNavScroll();
+
+      if (isBack2topEnable) {
+        back2top();
+      }
+    }, 100)
+  );
+
+  _Stun.utils.pjaxReloadScroll = function () {
     // Click the heading.
     $('#content-wrap')
       .find('h1,h2,h3,h4,h5,h6')
@@ -101,5 +134,5 @@ $(document).ready(function () {
   };
 
   // Initializaiton
-  Stun.utils.pjaxReloadScroll();
+  _Stun.utils.pjaxReloadScroll();
 });

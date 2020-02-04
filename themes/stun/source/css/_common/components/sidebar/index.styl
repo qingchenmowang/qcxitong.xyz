@@ -11,11 +11,10 @@ if (hexo-config('sidebar.enable')) {
     }
 
     &-inner {
-      border-radius: 5px;
+      layout-card();
       padding: 1rem;
       width: convert(hexo-config('sidebar.width') || '$sidebar-width');
       font-size: $font-size-sidebar;
-      background-color: $white;
 
       &.sticky {
         position: fixed;
@@ -31,9 +30,9 @@ if (hexo-config('sidebar.enable')) {
 
       &-toc,
       &-ov {
-        border-bottom: 1px solid #fff;
+        border-bottom: 1px solid var(--color-gray-150);
         padding: .3em .5em;
-        color: $sidebar-nav-text-color;
+        color: var(--color-gray-800);
         transition: opacity .2s;
 
         &:hover {
@@ -54,7 +53,7 @@ if (hexo-config('sidebar.enable')) {
       max-height: 70vh;
 
       if (hexo-config('toc.wrap')) {
-        word-wrap();
+        break-word();
       } else {
         white-space: nowrap;
       }
@@ -95,7 +94,7 @@ if (hexo-config('sidebar.enable')) {
     &-ov {
       & > div + div {
         if (hexo-config('sidebar.horizon_line')) {
-          border-top: 1px dashed $sidebar-horizon-line-color;
+          border-top: 1px dashed var(--color-gray-300);
         }
       }
 
@@ -174,11 +173,11 @@ if (hexo-config('sidebar.enable')) {
             display: inline-block;
             margin: .2rem;
             text-align: center;
-            color: $white;
+            color: var(--color-gray-100);
             background-color: $sidebar-social-color;
 
             &:hover {
-              color: $white;
+              color: var(--color-gray-100);
               background-color: $sidebar-social-hover-color;
             }
 
@@ -186,8 +185,7 @@ if (hexo-config('sidebar.enable')) {
               border-radius: 50%;
               width: 1.5rem;
               height: 1.5rem;
-              transition-property: background-color;
-              transition-ease();
+              transition: background-color .2s ease;
 
               &--icon {
                 font-size: 1.2em;
@@ -195,8 +193,7 @@ if (hexo-config('sidebar.enable')) {
             } else {
               border-radius: 3px;
               padding: 0 .4rem;
-              transition-property: color, background-color;
-              transition-ease();
+              transition: color .2s ease, background-color .2s ease;
 
               span {
                 margin-left: .2rem;
@@ -221,8 +218,7 @@ if (hexo-config('sidebar.enable')) {
             width: 50%;
 
             &__a {
-              transition-property: color;
-              transition-ease();
+              transition: color .2s ease;
 
               &--icon {
                 margin-right: .2rem;
@@ -256,11 +252,10 @@ if (hexo-config('sidebar.enable')) {
           display: inline-block;
           width: 33.3%;
           line-height: 1.5em;
-          transition-property: color;
-          transition-ease();
+          transition: color .2s ease;
 
           &:not(:last-child) {
-            border-right: 1px solid $sidebar-horizon-line-color;
+            border-right: 1px dashed var(--color-gray-300);
           }
 
           &.posts {
@@ -272,10 +267,10 @@ if (hexo-config('sidebar.enable')) {
           }
 
           &.categories {
-            color: $sidebar-state-category-color;
+            color: var(--color-gray-700);
 
             &:hover {
-              color: darken($sidebar-state-category-color, 30%);
+              color: var(--color-gray-900);
             }
           }
 
@@ -289,7 +284,7 @@ if (hexo-config('sidebar.enable')) {
 
           &--count {
             font-weight: $font-weight-bold;
-            color: $black-dark;
+            color: var(--color-gray-950);
           }
         }
       }
@@ -316,8 +311,7 @@ if (hexo-config('sidebar.enable')) {
           width: 100%;
           height: convert(hexo-config('reading_progress.height') || '1px');
           background-color: convert(hexo-config('reading_progress.color') || '#49b1f5');
-          transition-property: transform;
-          transition-ease();
+          transition: transform .2s ease;
           transform: translateX(-100%);
         }
       }

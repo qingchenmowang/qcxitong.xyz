@@ -18,6 +18,7 @@ menu:
   about: 关于
   link: 友情链接
   liuyan: 留言
+
 # 归档页、分类页、标签页
 page:
   tags: 标签
@@ -102,7 +103,7 @@ prompt:
     success: 复制成功
     error: 复制失败
   creative_commons: 知识共享
-  copy_button: 点击复制
+  copy_button: 复制代码
 
 # 其他
 creative_commons: 知识共享

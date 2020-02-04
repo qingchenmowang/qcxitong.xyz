@@ -3,24 +3,46 @@
 'use strict';
 
 hexo.extend.filter.register('after_post_render', function (data) {
-  var cheerio;
+  data.content = data.content.replace(
+    // Match 'img' tags width the src attribute.
+    /<img([^>]*)src="([^"]*)"([^>]*)>/gim,
+    function (match, attrBegin, src, attrEnd) {
+      // Exit if the src doesn't exists.
+      if (!src) {
+        return match;
+      }
 
-  if (!cheerio) cheerio = require('cheerio');
+      // A flag that sets the size of image.
+      var RESIZE_IMG_SIGN = '?size=';
+      var srcLower = src.toLowerCase();
+      // Exit if the src doesn't include the sign of resize.
+      if (!srcLower.includes(RESIZE_IMG_SIGN)) {
+        return match;
+      }
 
-  var $ = cheerio.load(data.content, { decodeEntities: false });
+      var size = srcLower.split(RESIZE_IMG_SIGN)[1];
+      // Exit if hasn't the value of width or height.
+      if (!size) {
+        return match;
+      }
 
-  $('img').each(function () {
-    var $img = $(this);
+      // The sign between width and height.
+      var MULTIPLY_SIGN = 'x';
+      var w = size.split(MULTIPLY_SIGN)[0];
+      var h = size.split(MULTIPLY_SIGN)[1];
+      var style = '';
 
-    if (!$img.attr('src')) return;
-    if ($img.attr('src').includes('?size=')) {
-      var size = $img.attr('src').split('?size=')[1] && $img.attr('src').split('?size=')[1].toLowerCase();
-      var w = size.split('x')[0] + 'px';
-      var h = size.split('x')[1] + 'px';
+      if (!w || !h) {
+        return;
+      }
+      if (w) {
+        style += `width: ${w}px;`;
+      }
+      if (h) {
+        style += `height: ${h}px;`;
+      }
 
-      $img.css({ width: w, height: h });
+      return `<img ${attrBegin} src="${src}" style="${style}" ${attrEnd}>`;
     }
-  });
-
-  data.content = $.html();
+  );
 }, 0);

@@ -7,12 +7,13 @@
 
     &-title {
       margin: 0;
+      color: var(--color-gray-950);
       cursor: auto;
 
-      &__a {
+      a {
         position: relative;
-        color: $post-title-color;
-        word-wrap();
+        color: var(--color-gray-800);
+        break-word();
 
         &::before {
           content: '';
@@ -22,14 +23,13 @@
           bottom: -4px;
           left: 0;
           height: 2px;
-          background-color: #000;
-          transition-property: transform;
-          transition-ease();
+          background-color: var(--color-gray-800);
+          transition: transform .2s ease-in-out;
           transform: scaleX(0);
         }
 
         &:hover {
-          color: $post-title-color;
+          color: var(--color-gray-800);
 
           &::before {
             visibility: visible;
@@ -41,20 +41,20 @@
 
     &-meta {
       i {
-        margin-right: .2rem;
+        margin-right: .25rem;
       }
 
       & > span {
         &:not(:first-child)::before {
           content: '•';
-          margin: 0 .3rem;
-          color: $black-light;
+          margin: 0 .5rem;
+          color: var(--color-gray-700);
         }
       }
 
       if (hexo-config('post_meta.created.enable')) {
         &-create {
-          color: $post-create-color;
+          color: var(--color-gray-700);
         }
       }
 
@@ -72,7 +72,7 @@
 
       if (hexo-config('post_meta.word_count.enable')) {
         &-word-count {
-          color: $post-word-count-color;
+          color: var(--color-gray-700);
         }
       }
 
@@ -92,13 +92,12 @@
 
   if (hexo-config('post_widget.end_text.enable')) {
     &-end {
-      margin: 0 0 1rem;
       padding: 1rem 0 0;
       text-align: center;
-      color: $post-end-color;
+      color: var(--color-gray-400);
 
       if (hexo-config('post_widget.end_text.horizon_line')) {
-        border-top: 1px dashed $post-end-line-color;
+        border-top: 1px dashed var(--color-gray-300);
       }
     }
   }
@@ -110,14 +109,20 @@
       &-item {
         margin: 0 .5rem;
 
-        &__i {
-          margin-right: .3rem;
-          color: $post-tags-icon-color;
+        &:hover {
+          cursor: pointer;
         }
 
+        &:hover i,
+        &:hover a {
+          color: $orange-dark;
+        }
+
+        &__i,
         &__a {
-          transition-property: color;
-          transition-ease();
+          margin: .1rem;
+          color: $post-tags-icon-color;
+          transition: color .2s ease;
         }
       }
     }
