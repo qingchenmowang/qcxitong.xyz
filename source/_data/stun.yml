@@ -44,6 +44,7 @@ sougou_site_verification: AdhbtimH0c
 # Value after `||` delimiter is the name of FontAwesome icon.
 # See: https://fontawesome.com/v4.7.0/icons/
 # If not set, "question-circle-o" icon will be shown.
+# 菜单项
 menu:
   home: / || home
   archives: /archives/ || folder-open
@@ -51,6 +52,7 @@ menu:
   tags: /tags/ || tags
   link: /like/ || link
   liuyan: /liuyan/ || commenting
+  wangzhi: javascript:; || xxx
   # about: /about/ || user
   # xxx: /xxx/ || xxx
   # You can add a secondary menu like follow.
@@ -58,15 +60,19 @@ menu:
 
 # Secondary menu.
 submenu:
+  wangzhi: 
+    qingchen:  http://qcxitong.ys168.com/
+    xiaoyuer: http://yrxitong.ys168.com/
   # Add item of secondary menu in here.添加二级菜单
   # xxx:
   #   xx1: /xxx/ || xxx
   #   xx2: /xxx/ || xxx
 
+# 设置图标和文字是否显示
 menu_settings:
-  # Only show by icon.
+  # Only show by icon.图标
   icon_only: false
-  # Only show by text.
+  # Only show by text.文字
   text_only: false
 
 # ---------------------------------------------------------------
@@ -74,8 +80,10 @@ menu_settings:
 # ---------------------------------------------------------------
 
 favicon:
-  small: /images/icons/favicon-16x16.png
-  medium: /images/icons/favicon-32x32.png
+  small: /images/icons/qingchen.png
+  medium: /images/icons/qingchen.png
+  # small: /images/icons/favicon-16x16.png 网站图标
+  # medium: /images/icons/favicon-32x32.png
   # ! -----------------------------------------------------
   # ! If you don't understand, please ignore the following.
   # ! -----------------------------------------------------
@@ -90,7 +98,7 @@ pwa:
   manifest: /manifest.json
   theme_color: "#54bcff"
 
-# Whether to show the button of dark mode.
+# Whether to show the button of dark mode.夜晚模式
 night_mode:
   enable: true
   # The button of switching to the night mode.
@@ -104,7 +112,7 @@ night_mode:
     dark: 🌜
     light: 🌞
 
-# The layout for sidebar and content of site.
+# The layout for sidebar and content of site.网站布局
 layout:
   # The width of the content area in website.
   content: 768px
@@ -122,10 +130,13 @@ layout:
     # Screen width in: [0px, 576px)
     mobile: 10px
 
+# 网站顶部设置
 header:
   enable: true
+  #是否启用
   # Whether to show on the some pages.
   show_on:
+    # 在文章页面是否显示网站顶部
     # Whether to show on the article page.
     post: true
   # Height of the header. (Support for all types of CSS size units)
@@ -133,6 +144,7 @@ header:
   # Background image in the header.
   bg_image:
     enable: true
+    # 背景图片
     # In theme directory (source/images): /images/avatar.png
     # In site directory (source/uploads): /uploads/avatar.png
     # You can also use a link of image.
@@ -149,17 +161,17 @@ header:
     bg_color: "#333"
   # The icon that prompt to scroll down.
   scroll_down_icon:
-    enable: false
+    enable: true
     animation: true
 
 body:
-  # Background image in the body.
+  # Background image in the body.主体背景图片
   bg_image:
     enable: false
     # In theme directory (source/images): /images/avatar.png
     # In site directory (source/uploads): /uploads/avatar.png
     # You can also use a link of image.
-    url:
+    url: /images/icons/qingchen.png
     # Whether to fixed the background image.
     fixed: true
     # Whether to repeat the image as much as possible to cover the entire area.
@@ -170,7 +182,7 @@ body:
     # Opacity of mask (value: 0 ~ 1).
     opacity: 0.5
 
-# Footer of your site.
+# Footer of your site.网站底部设置
 footer:
   # Background image in the footer.
   bg_image:
@@ -184,7 +196,7 @@ footer:
     enable: false
     # Opacity of mask (value: 0 ~ 1).
     opacity: 0.5
-  # Copyright information.
+  # Copyright information.版权信息
   copyright:
     enable: true
     # If not set, will be used `author` from Hexo main config.
@@ -195,6 +207,7 @@ footer:
     # End time. If not set, the current year will be used.
     end:
   # The icon between the copyright year and the owner.
+  # 时间和文字信息之间的图标
   icon:
     enable: true
     # Icon name in FontAwesome, see: https://fontawesome.com/v4.7.0/icons/
@@ -204,12 +217,12 @@ footer:
     animation: false
     # Please use quote to wrap value (All CSS size units are supported).
     color: "#ff0000"
-  # Hexo link (Powered by Hexo).
+  # Hexo link (Powered by Hexo).hexok 链接
   powered:
     enable: true
     # Version info of Hexo after Hexo link (e.g. vX.X.X).
     version: true
-  # Theme info link (Theme - stun).
+  # Theme info link (Theme - stun).stun链接
   theme:
     enable: true
     # Version info of theme after theme info (e.g. vX.X.X).
@@ -222,7 +235,7 @@ footer:
   # Any custom text (e.g. Hosted by <a href="https://pages.github.com/" rel="noopener" target="_blank">Github Pages</a>).
   custom:
     enable: false
-    text:
+    text: 托管于 <a href="https://pages.github.com/" rel="noopener" target="_blank">Github Pages</a>
 
 # Creative Commons 4.0 International License.
 creative_commons:
@@ -239,7 +252,7 @@ creative_commons:
   # If not set, "en" will be used by default.
   language: zh
 
-# Back to top button.
+# Back to top button.返回顶部
 back2top:
   enable: true
   icon:
@@ -254,18 +267,20 @@ back2top:
     hover_color: "#fc6423"
 
 # ---------------------------------------------------------------
-# Sidebar config
+# Sidebar config 侧边栏
 # ---------------------------------------------------------------
 
 sidebar:
+  # 侧边栏是否开启
   enable: true
-  # Sidebar position, available values: left | right.
+  # Sidebar position, available values: left | right. 侧边栏位置，可选值有：left 或 right
   position: left
   # The distance from the top of the page when the sidebar is fixed (Only px units are supported).
   offsetTop: 30px
-  # Horizon line.
+  # Horizon line.是否显示水平分割线
   horizon_line: false
 
+# 作者信息
 author:
   enable: true
   # Avatar in the sidebar.
@@ -275,22 +290,22 @@ author:
     # You can also use a link of image.
     url: /assets/1.0.jpg
     # If true, the avatar would be displayed in a circle.
-    rounded: false
+    rounded: true
     # The value should be chosen from 0 to 1.
     opacity: 1
     # Mouse hover animation, available value: turn | shake.
-    animation: turn
+    animation: shake
   # Your favorite motto.
-  motto: 轻尘丶莫莣
+  motto: 世界那么大，我想去看看！
 
-# Social links.
+# Social links.社交链接
 # Value before `||` delimiter is the target link.
 # Value after `||` delimiter is the name of FontAwesome icon.
 # See: https://fontawesome.com/v4.7.0/icons/
 # If you can`t find a suitable icon, you can choose to display the original
 #   text by adding the "origin" prefix (e.g. origin:sf, then "sf" will be show).
 social:
-  github: https://github.com/ || github
+  github: https://github.com/qingchenmowang/qingchenmowang.github.io/tree/master || github
   google: https://plus.google.com/ || google
   # twitter: https://twitter.com/ || twitter
   # youtube: https://youtube.com/ || youtube
@@ -307,7 +322,7 @@ social_setting:
   # Only show by icon.
   icon_only: true
 
-# Table Of Contents in the Sidebar.
+# Table Of Contents in the Sidebar.文章目录
 toc:
   enable: true
   # Automatically add list number to toc.
@@ -321,7 +336,7 @@ toc:
   # e.g. value: 3, will use h1~3 to generated toc.
   max_depth: 4
 
-# Subscribe of email and rss.
+# Subscribe of email and rss.订阅
 feed:
   enable: false
   # Enter your email subscription link (e.g. http://eepurl.com/guAE6j).
@@ -332,7 +347,7 @@ feed:
   #   by `npm install hexo-generator-feed --save` in hexo directory.
   rss:
 
-# The reading progress of post.
+# The reading progress of post.阅读进度条
 reading_progress:
   enable: true
   # Please use the quote to wrap value (All CSS size units are supported).
@@ -345,7 +360,7 @@ reading_progress:
 # ---------------------------------------------------------------
 
 codeblock:
-  # The style of code block.
+  # The style of code block. 代码高亮
   # values:
   #   - default
   #   - simple
@@ -365,25 +380,26 @@ heading_line: true
 
 # Reward
 reward:
-  enable: false
+  enable: true
   # Fill in your QR Code for collecting money.
-  alipay:
-  wechat:
+  alipay: /assets/1.2.png
+  wechat: /assets/1.1.png
+
 
 # ---------------------------------------------------------------
 # Post config
 # ---------------------------------------------------------------
 
-# The meta-information at the front of the post.
+# The meta-information at the front of the post.文章头部信息
 post_meta:
   # Only show by icon.
   icon_only: false
-  # Show create information.
+  # Show create information.创建时间
   created:
     enable: true
     # Icon name in FontAwesome, see: https://fontawesome.com/v4.7.0/icons/
     icon: calendar-o
-  # Show update information.
+  # Show update information.更新时间
   updated:
     enable: true
     # Icon name in FontAwesome, see: https://fontawesome.com/v4.7.0/icons/
@@ -393,7 +409,7 @@ post_meta:
   # Don't enable this before install dependencies
   #   by `npm install hexo-wordcount --save` in hexo directory.
   reading_time:
-    enable: false
+    enable: true
     # Icon name in FontAwesome, see: https://fontawesome.com/v4.7.0/icons/
     icon: clock-o
     # Set reading speed to estimate reading time.
@@ -407,7 +423,7 @@ post_meta:
   # Don't enable this before install dependencies
   #   by `npm install hexo-wordcount --save` in hexo directory.
   word_count:
-    enable: false
+    enable: true
     # Icon name in FontAwesome, see: https://fontawesome.com/v4.7.0/icons/
     icon: file-word-o
 
@@ -438,12 +454,12 @@ post_widget:
     # Optional value: qzone, qq, weibo, wechat, douban, linkedin, facebook, twitter, google
     target: qzone, qq, weibo, wechat, douban, linkedin, facebook, twitter, google
 
-# Automatically retain article excerpt.
+# Automatically retain article excerpt.文章摘要
 auto_excerpt:
   enable: false
   length: 150
 
-# Stick post to the top.
+# Stick post to the top.文章置顶图标
 # Dependencies: https://github.com/netcan/hexo-generator-index-pin-top/
 # Don't enable this before install dependencies
 #   by `npm install hexo-generator-index-pin-top --save` in hexo directory.
@@ -504,7 +520,7 @@ valine:
   # Pagination size.
   pageSize: 10
   # Article reading statistics.
-  visitor: false
+  visitor: false 
   # Whether to record the commenter IP.
   recordIP: false
   # language, available values: en, zh-cn.
@@ -552,7 +568,7 @@ utterances:
 # Busuanzi statistics
 # See: https://busuanzi.ibruce.info/
 busuanzi:
-  enable: false
+  enable: true
   # Only show by icon.
   icon_only: false
   # Number of unique visitor to the entire site.
@@ -571,7 +587,7 @@ busuanzi:
 
 # Google analytics ID
 # See: https://analytics.google.com/
-google_analytics:
+google_analytics: 157818778-1
 
 # Baidu analytics ID
 # See: https://tongji.baidu.com/
@@ -579,7 +595,7 @@ baidu_analytics: 01a4a4a8b57e6776a5ca92c46c5c4c5d
 
 # Tencent analytics ID
 # See: https://v2.ta.qq.com/
-tencent_analytics: undefined
+tencent_analytics: 66502492
 
 # ---------------------------------------------------------------
 # Search config
@@ -673,7 +689,7 @@ math:
 # See: https://fancyapps.com/fancybox/3/
 fancybox: false
 
-# Whether to enlarge the image when clicked.
+# Whether to enlarge the image when clicked.图片放大效果
 zoom_image:
   enable: true
   # The color of mask.
@@ -689,10 +705,10 @@ gallery_waterfall:
   gap_x: 10px
   gap_y: 10px
 
-# Lazy load the images of post.
+# Lazy load the images of post.图片懒加载
 # See: https://github.com/tuupola/lazyload
 lazyload:
-  enable: false
+  enable: true
   # Available values: gif | block
   placeholder: gif
 
@@ -726,7 +742,7 @@ quicklink:
 # Pjax
 # See: https://github.com/MoOx/pjax/
 pjax:
-  enable: false
+  enable: true
   # Scrolling to the second screen when the page loaded.
   scrollTo2screen: false
   # ! -----------------------------------------------------
@@ -753,7 +769,7 @@ google_adsense:
   client:
   enable_page_level_ads: true
 
-# The links with `target="_blank"` attribute.
+# The links with `target="_blank"` attribute.标识外部链接
 external_link:
   # Adding an icon make it easier for users to know that this is an external link.
   icon:
@@ -772,7 +788,7 @@ shortcuts:
   switch_post:
     enable: false
 
-# Tag cloud
+# Tag cloud标签云
 # If not used, comment it or ignore it.
 tag_cloud:
   # Color for tag (please use the quote to wrap value, only support HEX).
