@@ -130,6 +130,6 @@ deploy:
 - type: git
   repo: 
     github: git@github.com:qingchenmowang/qingchenmowang.github.io.git
-    
+    coding: https://e.coding.net/qcxitong/qingchen.git
   branch: master
 - type: baidu_url_submitter ## 这是新加的
