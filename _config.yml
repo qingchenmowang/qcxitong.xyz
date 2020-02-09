@@ -13,7 +13,7 @@ timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://qcxitong.xyz/child' and root as '/child/'
-url: https://www.qcxitong.xyz
+url: https://qcxitong.xyz
 root: /
 permalink: wy/:title.html
 permalink_defaults:

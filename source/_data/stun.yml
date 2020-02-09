@@ -25,7 +25,7 @@ bing_site_verification: 7F1B19447DE433A0949BF8290B53230A
 
 # Baidu Webmaster tools verification setting
 # See: https://ziyuan.baidu.com/site/
-baidu_site_verification: GMs2igEeL5
+baidu_site_verification: QGCaLj29kR
 
 # 360 Webmaster tools verification setting
 # see http://zhanzhang.so.com/
@@ -33,7 +33,7 @@ qihu360_site_verification: a4bfbad7ef66e4ec19e472369a8cf838
 
 # Sougou Webmaster tools verification setting
 # see http://zhanzhang.sogou.com/
-sougou_site_verification: AdhbtimH0c
+sougou_site_verification: yC9hbzL2ue
 
 # ---------------------------------------------------------------
 # Menu config
@@ -53,6 +53,7 @@ menu:
   link: /like/ || link
   liuyan: /liuyan/ || commenting
   wangzhi: javascript:; || xxx
+  OneDrive: javascript:; || xxx
   # about: /about/ || user
   # xxx: /xxx/ || xxx
   # You can add a secondary menu like follow.
@@ -63,6 +64,11 @@ submenu:
   wangzhi: 
     qingchen:  http://qcxitong.ys168.com/
     xiaoyuer: http://yrxitong.ys168.com/
+  OneDrive: 
+    qingchenruanjian: https://service-dee4s6yo-1255812932.ap-hongkong.apigateway.myqcloud.com/release/OneDrive/
+    qingchengongxiang: https://service-3ei1cfty-1300482735.ap-hongkong.apigateway.myqcloud.com/release/onedrive1
+    xiaoyuergongxiang: https://vipmail-my.sharepoint.cn/:f:/g/personal/359569928_e1_tn/EsWXiBUZrXJCl486I2quiJgB10OBhtrNFiCfI-qRBP3qrQ?e=ncpw7U
+  
   # Add item of secondary menu in here.添加二级菜单
   # xxx:
   #   xx1: /xxx/ || xxx
@@ -180,7 +186,11 @@ body:
   mask:
     enable: false
     # Opacity of mask (value: 0 ~ 1).
-    opacity: 0.5
+    opacity: 
+    # Opacity of the mask for the body background image by default.
+      default: 0.1
+      # Opacity of the mask for the body background image in night mode.
+      night_mode: 0.6
 
 # Footer of your site.网站底部设置
 footer:
@@ -234,7 +244,7 @@ footer:
     icp:
   # Any custom text (e.g. Hosted by <a href="https://pages.github.com/" rel="noopener" target="_blank">Github Pages</a>).
   custom:
-    enable: false
+    enable: true
     text: 托管于 <a href="https://pages.github.com/" rel="noopener" target="_blank">Github Pages</a>
 
 # Creative Commons 4.0 International License.
@@ -276,7 +286,7 @@ sidebar:
   # Sidebar position, available values: left | right. 侧边栏位置，可选值有：left 或 right
   position: left
   # The distance from the top of the page when the sidebar is fixed (Only px units are supported).
-  offsetTop: 30px
+  offsetTop: 20px
   # Horizon line.是否显示水平分割线
   horizon_line: false
 
@@ -326,15 +336,17 @@ social_setting:
 toc:
   enable: true
   # Automatically add list number to toc.
-  number: true
+  list_number: true
   # If true, all words will be placed on the next lines when they overflow.
   wrap: true
   # If true, the toc of post will always be displayed, rather than the activated part of it.
   expand_all: true
-  # Maximum heading depth of generated toc. You can set it in the
-  #   post through `toc_max_depth` in Front-matter.
-  # e.g. value: 3, will use h1~3 to generated toc.
-  max_depth: 4
+  # Minimum heading depth of generated toc.
+  # You can also set it in Front-matter by `toc_max_depth`.
+  min_depth: 1
+  # You can also set it in Front-matter by `toc_min_depth`.
+  # Maximum heading depth of generated toc.
+  max_depth: 6
 
 # Subscribe of email and rss.订阅
 feed:
@@ -384,7 +396,6 @@ reward:
   # Fill in your QR Code for collecting money.
   alipay: /assets/1.2.png
   wechat: /assets/1.1.png
-
 
 # ---------------------------------------------------------------
 # Post config
@@ -587,7 +598,7 @@ busuanzi:
 
 # Google analytics ID
 # See: https://analytics.google.com/
-google_analytics: 157818778
+google_analytics: 157818778-1
 
 # Baidu analytics ID
 # See: https://tongji.baidu.com/

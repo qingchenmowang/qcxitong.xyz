@@ -3,7 +3,7 @@
 ::: tip 前言
 - 修改配置文件、安装新的依赖等，都需要重启 Hexo 服务器。
 - 没有特别说明，配置项从 `v1.0.0` 版本开始支持。
-- 稳定的配置使用 <Badge text="Stable"/> 标明，表示基本不会变动。不稳定的配置使用 <Badge text="Beta" type="warn"/> 标明，表示未来可能会变动甚至删除。目前还不支持的配置使用 <Badge text="Not Support" type="error"/> 标明。被废弃的配置使用 <Badge text="Deprecated" type="error"/> 标明。最早开始支持的版本号使用 <Badge text="v x.x.x"/> 标明。与主题无关的配置项使用 <Badge text="Disrelated" type="warning"/> 标明。
+- 稳定的配置使用 <Badge text="Stable"/> 标明，表示基本不会变动。不稳定的配置使用 <Badge text="Beta" type="warn"/> 标明，表示未来可能会变动甚至删除。目前还不支持的配置使用 <Badge text="Not Support" type="error"/> 标明。被废弃的配置使用 <Badge text="Abandon" type="error"/> 标明。最早开始支持的版本号使用 <Badge text="v x.x.x"/> 标明。与主题无关的配置项使用 <Badge text="Disrelated" type="warning"/> 标明。
 :::
 
 ## 配置文件
@@ -164,19 +164,22 @@ header:
 
 - 如果设置 `header.enable: true` 和 `header.show_on.post: false`，则文章页不显示 header，其他页面仍会显示 header，效果如下：
 
-    文章页：
+    **文章页：**
 
     ![](https://raw.githubusercontent.com/liuyib/picBed/master/hexo-theme-stun/doc/20200203194337.jpg)
 
-    首页（其他页面）：
+    **首页（其他页面）：**
 
     ![](https://raw.githubusercontent.com/liuyib/picBed/master/hexo-theme-stun/doc/20200203194338.jpg)
 
 ::: warning
-- `mask` 选项，从 `v1.1.1` 版本开始支持。`blur_effect` 选项，从 `v1.1.1` 版本废弃。
-- `scroll_down_icon` 选项从 `v1.5.4` 版本开始支持。
-- `header.enable` 和 `show_on` 选项从 `v1.6.1` 版本开始支持。
-- `nav_height` 选项从 `v1.0.0` 版本开始支持，在 `v1.6.1` 版本修改为 `nav`。
+- `mask` 选项 <Badge text="v1.1.1"/>
+- `blur_effect` 选项 <Badge text="Abandon" type="error"/> <Badge text="v1.1.1" type="error"/> 
+- `scroll_down_icon` 选项 <Badge text="v1.5.4"/>
+- `nav_height` 选项 <Badge text="v1.0.0"/>，在 `v1.7.0` 版本修改为 `nav`。
+- `header.enable` 和 `show_on` 选项 <Badge text="v1.7.0"/>
+
+  > 当 `header.enable` 和 `show_on` 两者之一设为 `false` 或都设为 `false` 时，不兼容 Pjax 功能中的 `scrollTo2screen` 选项。
 :::
 
 ### 指定顶部图 <Badge text="Stable"/>
@@ -190,13 +193,13 @@ top_image: https://xxxxx.jpg
 ---
 ```
 
-## 网站主体设置 <Badge text="Beta" type="warning"/> <Badge text="v1.6.1"/>
+## 网站主体设置 <Badge text="Beta" type="warning"/> <Badge text="v1.7.0"/>
 
 修改主题配置文件：
 
 ``` yaml
 body:
-  # 主体背景图片
+  # 网站主体背景图片
   bg_image:
     # 是否启用
     enable: false
@@ -206,12 +209,16 @@ body:
     fixed: true
     # 图片无法占满空间时，是否重复显示（相当于设置 background-repeat: repeat/no-repeat）
     repeat: false
-  # 主体背景图片的遮罩效果
+  # 网站主体背景图片的遮罩效果
   mask:
     # 是否启用
     enable: false
     # 透明度（取值：0 ~ 1）
-    opacity: 0.5
+    opacity:
+      # 默认情况下，网站主体背景图片的透明度
+      default: 0.1
+      # 夜晚模式下，网站主体背景图片的透明度
+      night_mode: 0.6
 ```
 
 ## 侧边栏设置
@@ -225,12 +232,12 @@ sidebar:
   # 侧边栏位置，可选值有：left 或 right
   position: right
   # 侧边栏吸顶时，距离页面顶部的距离（只支持 px 单位）
-  offsetTop: 30px
+  offsetTop: 20px
   # 是否显示水平分割线
   horizon_line: false
 ```
 
-::: danger <Badge text="Deprecated" type="error"/>
+::: danger <Badge text="Abandon" type="error"/>
 其中的 `width` 属性在 `v1.6.0` 版本废弃。替代的设置是 `layout.sidebar` 属性。
 :::
 
@@ -290,7 +297,7 @@ social_setting:
 >
 > 图标的名称在这里查找：[https://fontawesome.com/v4.7.0/icons/](https://fontawesome.com/v4.7.0/icons/)
 
-::: danger <Badge text="Deprecated" type="error"/>
+::: danger <Badge text="Abandon" type="error"/>
 其中，配置项 `social_setting` 的 `text_align` 属性在 `v1.2.0` 版本废弃。
 :::
 

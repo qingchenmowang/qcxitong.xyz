@@ -28,20 +28,23 @@ if (hexo-config('header.nav.height') && match('%', hexo-config('header.nav.heigh
   }
 
   &-nav {
+    position: relative;
     top: 0;
     left: 0;
     z-index: $z-index1;
     width: 100%;
     height: header-nav-height;
-    transition: transform .2s ease, background-color .2s ease;
+    transition: transform .2s ease-out, background-color .2s ease;
 
     &--fixed {
       position: fixed;
+      transform: translateY(0);
     }
 
     &--sticky {
       position: fixed;
       background-color: convert(hexo-config('header.nav.bg_color') || '$header-nav-bg-color');
+      transform: translateY(-100%);
     }
 
     &.slider {
@@ -59,7 +62,6 @@ if (hexo-config('header.nav.height') && match('%', hexo-config('header.nav.heigh
     }
 
     &-inner {
-      position: relative;
       margin: 0 auto;
       padding: convert(hexo-config('layout.main_padding.default') || '20px');
       padding-top: 0 !important;
@@ -133,6 +135,12 @@ if (hexo-config('header.nav.height') && match('%', hexo-config('header.nav.heigh
       left: -.5rem;
       width: auto;
       background-color: $header-nav-bg-color;
+
+      &.hide {
+        &--force {
+          display: none !important;
+        }
+      }
 
       &-item {
         margin: 0;
@@ -228,10 +236,12 @@ if (hexo-config('header.nav.height') && match('%', hexo-config('header.nav.heigh
     if (hexo-config('header.scroll_down_icon.enable')) {
       &-arrow {
         position: absolute;
-        bottom: 0;
-        left: 50%;
+        bottom: 1rem;
+        left: calc(50% - 1rem);
         z-index: $z-index0;
-        transform: translate3d(-50%, -.5rem, 0);
+        width: 2rem;
+        height: 2rem;
+        text-align: center;
         cursor: pointer;
 
         if (hexo-config('header.scroll_down_icon.animation')) {
@@ -241,12 +251,12 @@ if (hexo-config('header.nav.height') && match('%', hexo-config('header.nav.heigh
             0%,
             100% {
               opacity: .8;
-              transform: translate3d(-50%, -.5rem, 0);
+              transform: translateY(0);
             }
 
             50% {
               opacity: .4;
-              transform: translate3d(-50%, -1.5rem, 0);
+              transform: translateY(-20px);
             }
           }
         }
