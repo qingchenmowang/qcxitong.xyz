@@ -47,9 +47,8 @@ sougou_site_verification: yC9hbzL2ue
 # 菜单项
 menu:
   home: / || home
-  archives: /archives/ || folder-open
-  categories: /categories/ || th
-  tags: /tags/ || tags
+  wenzhang: javascript:; || paint-brush
+  
   link: /like/ || link
   liuyan: /liuyan/ || commenting
   wangzhi: javascript:; || xxx
@@ -59,7 +58,7 @@ menu:
   # You can add a secondary menu like follow.
   # xxx: javascript:; || xxx
 
-# Secondary menu.
+# Secondary menu.二级菜单
 submenu:
   wangzhi: 
     qingchen:  http://qcxitong.ys168.com/
@@ -68,7 +67,11 @@ submenu:
     qingchenruanjian: https://service-dee4s6yo-1255812932.ap-hongkong.apigateway.myqcloud.com/release/OneDrive/
     qingchengongxiang: https://service-3ei1cfty-1300482735.ap-hongkong.apigateway.myqcloud.com/release/onedrive1
     xiaoyuergongxiang: https://vipmail-my.sharepoint.cn/:f:/g/personal/359569928_e1_tn/EsWXiBUZrXJCl486I2quiJgB10OBhtrNFiCfI-qRBP3qrQ?e=ncpw7U
-  
+    qingchenyuergongxiang: https://vipmail-my.sharepoint.cn/:f:/g/personal/359569928_e1_tn/EigL3XwfKhRKlag5s8g8Z44Bs03wn4bjgs8CVNDUKnlGJA?e=SGmviX
+  wenzhang: 
+    archives: /archives/ || folder-open
+    categories: /categories/ || th
+    tags: /tags/ || tags
   # Add item of secondary menu in here.添加二级菜单
   # xxx:
   #   xx1: /xxx/ || xxx
@@ -459,7 +462,7 @@ post_widget:
     horizon_line: true
   # Article sharing
   share:
-    enable: false
+    enable: true
     # The text displayed before the share button.
     label: "Share to: "
     # Optional value: qzone, qq, weibo, wechat, douban, linkedin, facebook, twitter, google
@@ -598,7 +601,7 @@ busuanzi:
 
 # Google analytics ID
 # See: https://analytics.google.com/
-google_analytics: 157818778-1
+google_analytics: UA-157818778-1
 
 # Baidu analytics ID
 # See: https://tongji.baidu.com/
@@ -755,7 +758,7 @@ quicklink:
 pjax:
   enable: true
   # Scrolling to the second screen when the page loaded.
-  scrollTo2screen: false
+  scrollTo2screen: true
   # ! -----------------------------------------------------
   # ! If you don't understand, please ignore the following.
   # ! -----------------------------------------------------
@@ -797,7 +800,7 @@ shortcuts:
   # "Ctrl + ←" is the shortcuts to prev post.
   # "Ctrl + →" is the shortcuts to next post.
   switch_post:
-    enable: false
+    enable: true
 
 # Tag cloud标签云
 # If not used, comment it or ignore it.
