@@ -53,6 +53,7 @@ menu:
   liuyan: /liuyan/ || commenting
   wangzhi: javascript:; || xxx
   OneDrive: javascript:; || xxx
+  #OneDrive1: javascript:; || xxx
   # about: /about/ || user
   # xxx: /xxx/ || xxx
   # You can add a secondary menu like follow.
@@ -65,13 +66,20 @@ submenu:
     xiaoyuer: http://yrxitong.ys168.com/
   OneDrive: 
     qingchenruanjian: https://service-dee4s6yo-1255812932.ap-hongkong.apigateway.myqcloud.com/release/OneDrive/
+    qingchenyuergongxiang: https://service-gxb8nk8w-1255601767.ap-hongkong.apigateway.myqcloud.com/release/OneDrive
     qingchengongxiang: https://service-3ei1cfty-1300482735.ap-hongkong.apigateway.myqcloud.com/release/onedrive1
-    xiaoyuergongxiang: https://vipmail-my.sharepoint.cn/:f:/g/personal/359569928_e1_tn/EsWXiBUZrXJCl486I2quiJgB10OBhtrNFiCfI-qRBP3qrQ?e=ncpw7U
-    qingchenyuergongxiang: https://vipmail-my.sharepoint.cn/:f:/g/personal/359569928_e1_tn/EigL3XwfKhRKlag5s8g8Z44Bs03wn4bjgs8CVNDUKnlGJA?e=SGmviX
+    gongxiangobs: https://alphaone-my.sharepoint.cn/:f:/g/personal/359569928_mqk_me/EgR5LJHBhOJDmcfv1Udl2MMBWtZKf7ObfjST_Rv_tpm2Qg?e=OnBXHa
+    tianyi: https://service-p4ts69xo-1300482735.gz.apigw.tencentcs.com/release/tianyi/1
+
   wenzhang: 
     archives: /archives/ || folder-open
     categories: /categories/ || th
     tags: /tags/ || tags
+  #OneDrive1: 
+    
+
+
+
   # Add item of secondary menu in here.添加二级菜单
   # xxx:
   #   xx1: /xxx/ || xxx
@@ -462,7 +470,7 @@ post_widget:
     horizon_line: true
   # Article sharing
   share:
-    enable: true
+    enable: false
     # The text displayed before the share button.
     label: "Share to: "
     # Optional value: qzone, qq, weibo, wechat, douban, linkedin, facebook, twitter, google

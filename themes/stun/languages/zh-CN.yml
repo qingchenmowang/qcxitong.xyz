@@ -22,11 +22,14 @@ menu:
   qingchen: 轻尘
   xiaoyuer: 小鱼儿
   OneDrive: OneDrive网盘
+  OneDrive1: 共享网盘合集
   qingchenruanjian: 轻尘软件
   qingchengongxiang: 轻尘共享
   xiaoyuergongxiang: 小鱼儿共享
   wenzhang: 文章
-  qingchenyuergongxiang: 轻尘共享0
+  qingchenyuergongxiang: 国内obs
+  tianyi: 天翼云盘
+  gongxiangobs: 共享OBS
 # 归档页、分类页、标签页
 page:
   tags: 标签
