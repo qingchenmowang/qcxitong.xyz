@@ -30,7 +30,7 @@ menu:
   qingchenyuergongxiang: 国内obs
   tianyi: 天翼云盘
   gongxiangobs: 共享OBS
-  CLAM: CLAM的藏经阁
+  clam: CLAM
 # 归档页、分类页、标签页
 page:
   tags: 标签
