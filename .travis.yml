@@ -23,4 +23,4 @@ branches:
 env:
  global:
    - GH_REF: github.com/qingchenmowang/qingchenmowang.github.io.git
-   - GO_REF: e.coding.net:qcxitong/qingchen.git
+   - GO_REF: e.coding.net/qcxitong/qingchen.git
