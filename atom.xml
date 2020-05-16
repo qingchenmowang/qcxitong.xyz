@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>轻尘-新的百年，与您同在！</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://qcxitong.top/"/>
+  <updated>2020-05-16T03:46:23.564Z</updated>
+  <id>https://qcxitong.top/</id>
+  
+  <author>
+    <name>轻尘</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>网站自动化部署</title>
+    <link href="https://qcxitong.top/wiki/13%20copy%203.html"/>
+    <id>https://qcxitong.top/wiki/13%20copy%203.html</id>
+    <published>2020-05-16T03:46:23.564Z</published>
+    <updated>2020-05-16T03:46:23.564Z</updated>
+    
+    <content type="html"><![CDATA[<p><a href="https://idkzr.com/posts/codingci" target="_blank" rel="noopener">1.coding的自动化部署</a><br><a href="https://www.antmoe.com/posts/51b0fa77/index.html#3-%E4%B8%8A%E4%BC%A0" target="_blank" rel="noopener">2.hexo利用coding自动部署</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;a href=&quot;https://idkzr.com/posts/codingci&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;1.coding的自动化部署&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;https://www.antmoe.com/posts/51b
+      
+    
+    </summary>
+    
+    
+      <category term="教程类" scheme="https://qcxitong.top/categories/%E6%95%99%E7%A8%8B%E7%B1%BB/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>站长工具以及数据分析</title>
+    <link href="https://qcxitong.top/wiki/0%20copy%202.html"/>
+    <id>https://qcxitong.top/wiki/0%20copy%202.html</id>
+    <published>2020-05-16T03:46:23.564Z</published>
+    <updated>2020-05-16T03:46:23.564Z</updated>
+    
+    <content type="html"><![CDATA[<p><a href="https://ziyuan.baidu.com/site/" target="_blank" rel="noopener">1.百度站长</a><br><a href="http://zhanzhang.sogou.com/" target="_blank" rel="noopener">2.搜狗站长</a><br><a href="http://zhanzhang.so.com/" target="_blank" rel="noopener">3.360站长</a><br><a href="https://www.bing.com/webmaster/" target="_blank" rel="noopener">4.必应站长</a><br><a href="https://www.google.com/webmasters/" target="_blank" rel="noopener">5.谷歌站长</a><br><a href="https://v2.ta.qq.com/" target="_blank" rel="noopener">6.腾讯分析</a><br><a href="https://tongji.baidu.com/" target="_blank" rel="noopener">7.百度分析</a><br><a href="https://analytics.google.com/" target="_blank" rel="noopener">8.谷歌分析</a><br><a href="https://www.google.com/adsense/new/u/0/pub-5355023440388642/home" target="_blank" rel="noopener">9.谷歌广告</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;a href=&quot;https://ziyuan.baidu.com/site/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;1.百度站长&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;http://zhanzhang.sogou.com/&quot; target=&quot;_blan
+      
+    
+    </summary>
+    
+    
+      <category term="轻尘网站相关" scheme="https://qcxitong.top/categories/%E8%BD%BB%E5%B0%98%E7%BD%91%E7%AB%99%E7%9B%B8%E5%85%B3/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>GitHub</title>
+    <link href="https://qcxitong.top/wiki/0%E8%BD%BB%E5%B0%98%E7%BD%91%E7%AB%99%E7%9B%B8%E5%85%B3.html"/>
+    <id>https://qcxitong.top/wiki/0%E8%BD%BB%E5%B0%98%E7%BD%91%E7%AB%99%E7%9B%B8%E5%85%B3.html</id>
+    <published>2020-05-16T03:46:23.564Z</published>
+    <updated>2020-05-16T03:46:23.564Z</updated>
+    
+    <content type="html"><![CDATA[<p><a href="https://www.youtube.com/" target="_blank" rel="noopener">1.YouTube</a><br><a href="https://blog.csdn.net/qq_34291777/article/details/98723401" target="_blank" rel="noopener">2.多端同步</a><br><a href="https://liuyib.github.io/hexo-theme-stun/zh-CN/guide/quick-start.html#%E5%AE%89%E8%A3%85" target="_blank" rel="noopener">3.stun主题</a><br><a href="https://fontawesome.com/v4.7.0/icons/" target="_blank" rel="noopener">4.国际化图标</a><br><a href="https://hexo.io/themes/index.html" target="_blank" rel="noopener">5.hexo所有主题</a><br><a href="https://github.com/" target="_blank" rel="noopener">6.我的GitHub</a><br><a href="https://blog.csdn.net/sinat_37781304/article/details/82729029" target="_blank" rel="noopener">7.hexo搭建教程</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;a href=&quot;https://www.youtube.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;1.YouTube&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;https://blog.csdn.net/qq_34291777/article/det
+      
+    
+    </summary>
+    
+    
+      <category term="轻尘网站相关" scheme="https://qcxitong.top/categories/%E8%BD%BB%E5%B0%98%E7%BD%91%E7%AB%99%E7%9B%B8%E5%85%B3/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>学习资料</title>
+    <link href="https://qcxitong.top/wiki/11%20copy.html"/>
+    <id>https://qcxitong.top/wiki/11%20copy.html</id>
+    <published>2020-05-16T03:46:23.564Z</published>
+    <updated>2020-05-16T03:46:23.564Z</updated>
+    
+    <content type="html"><![CDATA[<p><a href="https://linux.cn/" target="_blank" rel="noopener">1.Linux中国开源社区</a><br><a href="https://www.jianshu.com/p/1e402922ee32" target="_blank" rel="noopener">2.MD入门指南</a><br><a href="https://www.bjsxt.com/download.html" target="_blank" rel="noopener">3.北京尚学堂</a><br><a href="https://www.itbaizhan.cn/" target="_blank" rel="noopener">4.百战程序员</a><br><a href="https://git-scm.com/book/zh/v2/%E8%B5%B7%E6%AD%A5-%E5%88%9D%E6%AC%A1%E8%BF%90%E8%A1%8C-Git-%E5%89%8D%E7%9A%84%E9%85%8D%E7%BD%AE" target="_blank" rel="noopener">5.git初次运行</a><br><a href="https://www.linuxcool.com/" target="_blank" rel="noopener">6.Linux命令大全</a><br><a href="https://www.linuxprobe.com/chapter-02.html" target="_blank" rel="noopener">7.新手必须掌握的Linux命令</a><br><a href=""></a><br><a href=""></a></p><p><a href=""></a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;a href=&quot;https://linux.cn/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;1.Linux中国开源社区&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;https://www.jianshu.com/p/1e402922ee32&quot; target=&quot;
+      
+    
+    </summary>
+    
+    
+      <category term="功能型" scheme="https://qcxitong.top/categories/%E5%8A%9F%E8%83%BD%E5%9E%8B/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>功能型</title>
+    <link href="https://qcxitong.top/wiki/11%E5%8A%9F%E8%83%BD%E5%9E%8B.html"/>
+    <id>https://qcxitong.top/wiki/11%E5%8A%9F%E8%83%BD%E5%9E%8B.html</id>
+    <published>2020-05-16T03:46:23.564Z</published>
+    <updated>2020-05-16T03:46:23.564Z</updated>
+    
+    <content type="html"><![CDATA[<p><a href="https://www.virscan.org/language/zh-cn/" target="_blank" rel="noopener">1.查病毒</a><br><a href="http://mrw.so/" target="_blank" rel="noopener">2.转链接</a><br><a href="https://adf.ly/" target="_blank" rel="noopener">2.1小蜜蜂</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;a href=&quot;https://www.virscan.org/language/zh-cn/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;1.查病毒&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;http://mrw.so/&quot; target=&quot;_blank&quot; re
+      
+    
+    </summary>
+    
+    
+      <category term="功能型" scheme="https://qcxitong.top/categories/%E5%8A%9F%E8%83%BD%E5%9E%8B/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>百度网盘可用下载方法</title>
+    <link href="https://qcxitong.top/wiki/12%20copy%202.html"/>
+    <id>https://qcxitong.top/wiki/12%20copy%202.html</id>
+    <published>2020-05-16T03:46:23.564Z</published>
+    <updated>2020-05-16T03:46:23.564Z</updated>
+    
+    <content type="html"><![CDATA[<p><a href="https://yixun.writeas.com/yi-xun" target="_blank" rel="noopener">1.亿寻</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;a href=&quot;https://yixun.writeas.com/yi-xun&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;1.亿寻&lt;/a&gt;&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+      <category term="网盘类" scheme="https://qcxitong.top/categories/%E7%BD%91%E7%9B%98%E7%B1%BB/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>天翼系列</title>
+    <link href="https://qcxitong.top/wiki/12%20copy%203.html"/>
+    <id>https://qcxitong.top/wiki/12%20copy%203.html</id>
+    <published>2020-05-16T03:46:23.564Z</published>
+    <updated>2020-05-16T03:46:23.564Z</updated>
+    
+    <content type="html"><![CDATA[<p><a href="https://cloud.189.cn/main.action" target="_blank" rel="noopener">1.天翼云盘</a><br><a href="https://dashboard.heroku.com/apps" target="_blank" rel="noopener">2.heroku</a><br><a href="https://github.com/xytoki/TCShare" target="_blank" rel="noopener">3.天翼TCshare源码</a><br><a href="https://github.com/reruin/sharelist" target="_blank" rel="noopener">4.天翼sharelist源码</a><br><a href="https://v.qcxitong.top" target="_blank" rel="noopener">5.share list搭建网盘</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;a href=&quot;https://cloud.189.cn/main.action&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;1.天翼云盘&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;https://dashboard.heroku.com/apps&quot; targe
+      
+    
+    </summary>
+    
+    
+      <category term="网盘类" scheme="https://qcxitong.top/categories/%E7%BD%91%E7%9B%98%E7%B1%BB/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>一些其他网盘</title>
+    <link href="https://qcxitong.top/wiki/12%20copy%204.html"/>
+    <id>https://qcxitong.top/wiki/12%20copy%204.html</id>
+    <published>2020-05-16T03:46:23.564Z</published>
+    <updated>2020-05-16T03:46:23.564Z</updated>
+    
+    <content type="html"><![CDATA[<p><a href="https://6pan.cn/" target="_blank" rel="noopener">1.6盘</a><br><a href="http://pan.baixiongz.com/" target="_blank" rel="noopener">2.白熊云盘</a><br><a href="https://www.multcloud.com/" target="_blank" rel="noopener">3.MultCloud-专注于跨云传输</a><br><a href="https://cowtransfer.com/" target="_blank" rel="noopener">4.奶牛</a><br><a href="https://www.lanzou.com/" target="_blank" rel="noopener">5.蓝凑云</a><br><a href="https://portal.qiniu.com/kodo/overview" target="_blank" rel="noopener">6.七牛云</a><br><a href="https://yunpan.360.cn/file/index#/fileManage/my/file//" target="_blank" rel="noopener">7.360云盘</a><br><a href="https://pan.baidu.com/disk/home?#/all?path=/&vmode=list" target="_blank" rel="noopener">8.百度网盘</a><br><a href="https://github.com/zhaojun1998/zfile" target="_blank" rel="noopener">9.zfilr 在线网盘</a><br><a href="https://github.com/cloudreve/Cloudreve" target="_blank" rel="noopener">10.cloudreve支持多家云存储的云盘系统</a><br><a href="https://www.huiju.in/18688.html" target="_blank" rel="noopener">11.各种OneDrive网盘源码</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;a href=&quot;https://6pan.cn/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;1.6盘&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;http://pan.baixiongz.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
+      
+    
+    </summary>
+    
+    
+      <category term="网盘类" scheme="https://qcxitong.top/categories/%E7%BD%91%E7%9B%98%E7%B1%BB/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>网盘搜索</title>
+    <link href="https://qcxitong.top/wiki/12%20copy%205.html"/>
+    <id>https://qcxitong.top/wiki/12%20copy%205.html</id>
+    <published>2020-05-16T03:46:23.564Z</published>
+    <updated>2020-05-16T03:46:23.564Z</updated>
+    
+    <content type="html"><![CDATA[<p><a href="https://www.dalipan.com/?from=enfi_desktop" target="_blank" rel="noopener">1.大力盘搜索</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;a href=&quot;https://www.dalipan.com/?from=enfi_desktop&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;1.大力盘搜索&lt;/a&gt;&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+      <category term="网盘类" scheme="https://qcxitong.top/categories/%E7%BD%91%E7%9B%98%E7%B1%BB/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>office365以及OneDrive网盘相关</title>
+    <link href="https://qcxitong.top/wiki/12%20copy.html"/>
+    <id>https://qcxitong.top/wiki/12%20copy.html</id>
+    <published>2020-05-16T03:46:23.564Z</published>
+    <updated>2020-05-16T03:46:23.564Z</updated>
+    
+    <content type="html"><![CDATA[<p><a href="https://blog.432100.xyz/index.php/archives/50/" target="_blank" rel="noopener">1.e5刷api教程</a><br><a href="https://products.office.com/zh-cn/compare-more-china-versions-office365" target="_blank" rel="noopener">2.世纪互联试用申请地址</a><br><a href="https://portal.partner.microsoftonline.cn/" target="_blank" rel="noopener">3.世纪互联登陆地址</a><br><a href="https://wenhairu.com/onedrive-Storage.html" target="_blank" rel="noopener">4.1t升5t方法介绍</a><br><a href="https://admin.onedrive.com/#v=StorageSettings" target="_blank" rel="noopener">5.1t升5t地址</a><br><a href="https://portal.office.com/AdminPortal/Home" target="_blank" rel="noopener">6.国际版管理员登陆地址</a><br><a href="https://qingchen1.herokuapp.com/" target="_blank" rel="noopener">7.社区版世纪互联直链地址</a><br><a href="https://github.com/qkqpttgf/OneManager-php" target="_blank" rel="noopener">8.OneManager</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;a href=&quot;https://blog.432100.xyz/index.php/archives/50/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;1.e5刷api教程&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;https://products.offic
+      
+    
+    </summary>
+    
+    
+      <category term="网盘类" scheme="https://qcxitong.top/categories/%E7%BD%91%E7%9B%98%E7%B1%BB/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Google网盘</title>
+    <link href="https://qcxitong.top/wiki/12%E7%BD%91%E7%9B%98%E7%B1%BB.html"/>
+    <id>https://qcxitong.top/wiki/12%E7%BD%91%E7%9B%98%E7%B1%BB.html</id>
+    <published>2020-05-16T03:46:23.564Z</published>
+    <updated>2020-05-16T03:46:23.564Z</updated>
+    
+    <content type="html"><![CDATA[<p><a href="https://qing2.herokuapp.com/" target="_blank" rel="noopener">1.heroku版ariang</a><br><a href="http://localhost:8086/#!/downloading" target="_blank" rel="noopener">2.ariang本地版</a><br><a href="https://empty-boat-6be0.qingchen.workers.dev/" target="_blank" rel="noopener">3.Google直链网盘</a><br><a href="https://drive.google.com/drive/folders/1o7xfVWG8qzRxhK_bEjCOvWos27NQWlYW" target="_blank" rel="noopener">4.Google云盘</a><br><a href="http://ariang.mayswind.net/latest/#!/downloading" target="_blank" rel="noopener">5.ariang</a><br><a href="https://td.fastio.me/" target="_blank" rel="noopener">6.Google团队盘</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;a href=&quot;https://qing2.herokuapp.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;1.heroku版ariang&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;http://localhost:8086/#!/downloadin
+      
+    
+    </summary>
+    
+    
+      <category term="网盘类" scheme="https://qcxitong.top/categories/%E7%BD%91%E7%9B%98%E7%B1%BB/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>网盘相关</title>
+    <link href="https://qcxitong.top/wiki/13%20copy%202.html"/>
+    <id>https://qcxitong.top/wiki/13%20copy%202.html</id>
+    <published>2020-05-16T03:46:23.564Z</published>
+    <updated>2020-05-16T03:46:23.564Z</updated>
+    
+    <content type="html"><![CDATA[<p><a href="https://huaien.co/technology/heroku-aria2-rclone/" target="_blank" rel="noopener">1.利用Heroku部署Aria2离线下载并同步上传到Onedrive等网盘</a><br><a href="https://www.twoha.tk/aria2-rclone/" target="_blank" rel="noopener">2.Aira2离线下载OneDrive网盘教程</a><br><a href="https://shouyishe.com/archives/2226" target="_blank" rel="noopener">3.无需fq上网下载googledrive</a><br><a href="https://shouyishe.com/archives/1350" target="_blank" rel="noopener">4.免费获取googledrive空间</a><br><a href="https://www.hostloc.com/thread-617698-1-1.html" target="_blank" rel="noopener">5.利用heroku搭建Onedrive目录列表</a><br><a href="https://www.zmd396.cn/663.html" target="_blank" rel="noopener">6.一键安装aria2，自动上传到OneDrive</a><br><a href="https://github.com/P3TERX/aria2.sh" target="_blank" rel="noopener">7.aria2一键脚本</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;a href=&quot;https://huaien.co/technology/heroku-aria2-rclone/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;1.利用Heroku部署Aria2离线下载并同步上传到Onedrive等网盘&lt;/a&gt;&lt;br&gt;
+      
+    
+    </summary>
+    
+    
+      <category term="教程类" scheme="https://qcxitong.top/categories/%E6%95%99%E7%A8%8B%E7%B1%BB/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>轻尘网站</title>
+    <link href="https://qcxitong.top/wiki/0%20copy.html"/>
+    <id>https://qcxitong.top/wiki/0%20copy.html</id>
+    <published>2020-05-16T03:46:23.564Z</published>
+    <updated>2020-05-16T03:46:23.564Z</updated>
+    
+    <content type="html"><![CDATA[<p><a href="https://e.coding.net/signin" target="_blank" rel="noopener">1.CODING</a><br><a href="http://localhost:4000/" target="_blank" rel="noopener">2.本地站点</a><br><a href="https://sucai.wangpu.taobao.com/#/?_k=bvdb89" target="_blank" rel="noopener">3.淘宝空间</a><br><a href="https://console.leancloud.app/app.html?appid=w8Wvq3hqw1xIM1SOeXfYxpfh-MdYXbMMI#/report" target="_blank" rel="noopener">4.LeanCloud valine评论系统</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;a href=&quot;https://e.coding.net/signin&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;1.CODING&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;http://localhost:4000/&quot; target=&quot;_blank&quot; rel
+      
+    
+    </summary>
+    
+    
+      <category term="轻尘网站相关" scheme="https://qcxitong.top/categories/%E8%BD%BB%E5%B0%98%E7%BD%91%E7%AB%99%E7%9B%B8%E5%85%B3/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>其他</title>
+    <link href="https://qcxitong.top/wiki/13%20copy%204.html"/>
+    <id>https://qcxitong.top/wiki/13%20copy%204.html</id>
+    <published>2020-05-16T03:46:23.564Z</published>
+    <updated>2020-05-16T03:46:23.564Z</updated>
+    
+    <content type="html"><![CDATA[<p><a href="https://www.moerats.com/" target="_blank" rel="noopener">1.闲来看看</a><br><a href="https://knowledge.autodesk.com/zh-hans/support/3ds-max/troubleshooting/caas/sfdcarticles/sfdcarticles/CHS/Error-launching-3ds-Max-2015.html" target="_blank" rel="noopener">2.启动3dsmax显示错误</a><br><a href="http://codekon.xyz/tools/hyper-v-2-0/" target="_blank" rel="noopener">3.虚拟机安装软路由</a><br><a href="https://www.bilibili.com/video/av37952490" target="_blank" rel="noopener">4.obs设置</a><br><a href="https://cangshui.net/4579.html" target="_blank" rel="noopener">5.win10edge内置管理员不能登陆的解决办法</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;a href=&quot;https://www.moerats.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;1.闲来看看&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;https://knowledge.autodesk.com/zh-hans/support/3
+      
+    
+    </summary>
+    
+    
+      <category term="教程类" scheme="https://qcxitong.top/categories/%E6%95%99%E7%A8%8B%E7%B1%BB/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>python相关</title>
+    <link href="https://qcxitong.top/wiki/13%20copy.html"/>
+    <id>https://qcxitong.top/wiki/13%20copy.html</id>
+    <published>2020-05-16T03:46:23.564Z</published>
+    <updated>2020-05-16T03:46:23.564Z</updated>
+    
+    <content type="html"><![CDATA[<p><a href="https://blog.csdn.net/frostime/article/details/90523062" target="_blank" rel="noopener">1.python打包exe程序过大的解决办法</a><br><a href="https://blog.csdn.net/weixin_33735077/article/details/93293102" target="_blank" rel="noopener">2.切换pip源的方法</a><br><a href="https://blog.csdn.net/qq_33462307/article/details/90479045" target="_blank" rel="noopener">3.python如何打包成exe</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;a href=&quot;https://blog.csdn.net/frostime/article/details/90523062&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;1.python打包exe程序过大的解决办法&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;h
+      
+    
+    </summary>
+    
+    
+      <category term="教程类" scheme="https://qcxitong.top/categories/%E6%95%99%E7%A8%8B%E7%B1%BB/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>office相关</title>
+    <link href="https://qcxitong.top/wiki/13%E6%95%99%E7%A8%8B%E7%B1%BB.html"/>
+    <id>https://qcxitong.top/wiki/13%E6%95%99%E7%A8%8B%E7%B1%BB.html</id>
+    <published>2020-05-16T03:46:23.564Z</published>
+    <updated>2020-05-16T03:46:23.564Z</updated>
+    
+    <content type="html"><![CDATA[<p><a href="https://blog.432100.xyz/index.php/archives/50/" target="_blank" rel="noopener">1.e5刷api</a><br><a href="https://wangdalao.com/2222.html" target="_blank" rel="noopener">2.免费申请office365e5订阅</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;a href=&quot;https://blog.432100.xyz/index.php/archives/50/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;1.e5刷api&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;https://wangdalao.com/22
+      
+    
+    </summary>
+    
+    
+      <category term="教程类" scheme="https://qcxitong.top/categories/%E6%95%99%E7%A8%8B%E7%B1%BB/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>邮箱</title>
+    <link href="https://qcxitong.top/wiki/14%20copy%202.html"/>
+    <id>https://qcxitong.top/wiki/14%20copy%202.html</id>
+    <published>2020-05-16T03:46:23.564Z</published>
+    <updated>2020-05-16T03:46:23.564Z</updated>
+    
+    <content type="html"><![CDATA[<p><a href="https://outlook.live.com/mail/0/inbox" target="_blank" rel="noopener">1.微软邮箱</a><br><a href="https://gmail.google.com/mail/" target="_blank" rel="noopener">2.谷歌邮箱</a><br><a href="http://t.odmail.cn/" target="_blank" rel="noopener">3.临时1</a><br><a href="http://233455.xyz:3000/" target="_blank" rel="noopener">4.临时2</a><br><a href="http://onedrive.readmail.net/" target="_blank" rel="noopener">5.临时3</a><br><a href="http://xkx.me/" target="_blank" rel="noopener">6.临时4</a><br><a href="http://24mail.chacuo.net/" target="_blank" rel="noopener">7.临时5</a><br><a href="https://qiye.aliyun.com/admin/#/account-manage" target="_blank" rel="noopener">8.阿里企业邮箱登陆地址</a><br><a href="https://wanwang.aliyun.com/mail/freemail/" target="_blank" rel="noopener">9.阿里企业邮箱免费申请地址</a><br><a href="https://help.aliyun.com/knowledge_detail/36576.html?spm=a2c4g.11186631.2.3.300144fdCSjRwk" target="_blank" rel="noopener">10.阿里企业云邮箱POP\SMTP\IMAP地址和端口信息</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;a href=&quot;https://outlook.live.com/mail/0/inbox&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;1.微软邮箱&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;https://gmail.google.com/mail/&quot; tar
+      
+    
+    </summary>
+    
+    
+      <category term="软件 系统 论坛 邮箱" scheme="https://qcxitong.top/categories/%E8%BD%AF%E4%BB%B6-%E7%B3%BB%E7%BB%9F-%E8%AE%BA%E5%9D%9B-%E9%82%AE%E7%AE%B1/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>软件</title>
+    <link href="https://qcxitong.top/wiki/14%20copy%203.html"/>
+    <id>https://qcxitong.top/wiki/14%20copy%203.html</id>
+    <published>2020-05-16T03:46:23.564Z</published>
+    <updated>2020-05-16T03:46:23.564Z</updated>
+    
+    <content type="html"><![CDATA[<p><a href="https://www.xyboot.com/201708iqi/" target="_blank" rel="noopener">1.IQI9windows一键安装器</a><br><a href="http://bbs.xiaokanba.com/download.html" target="_blank" rel="noopener">2.闪电下载</a><br><a href="https://www.52pojie.cn/thread-1078217-1-1.html" target="_blank" rel="noopener">3.最新的WPS2019ProPlus.11.8.6.8697专业增强自激活版+正版激活序列号</a><br><a href="https://knowledge.autodesk.com/zh-hans/search" target="_blank" rel="noopener">4.AUTODOSE错误检查</a><br><a href="http://www.tuyiyi.com/tool/" target="_blank" rel="noopener">5.AUTODOSE错误检查</a><br><a href="https://zixue.3d66.com/search/soft?k=proe" target="_blank" rel="noopener">6.3d66</a><br><a href="https://zjbl.qq.com/user/auditinfo" target="_blank" rel="noopener">7.qq装机部落</a><br><a href="https://mp.weixin.qq.com/s/mVxJYiGrfselJx1b9XdvYw" target="_blank" rel="noopener">8.MAC软件站</a><br><a href="https://mp.weixin.qq.com/s/zeq1sTmaPsKt7Bsok0Ldrg" target="_blank" rel="noopener">9.WIN软件站</a><br><a href="https://xdown.org/" target="_blank" rel="noopener">10.下载器XDOWN</a><br><a href="http://idman.ys168.com/" target="_blank" rel="noopener">11.最新版本IDM</a><br><a href="https://www.microsoftedgeinsider.com/zh-cn/download/" target="_blank" rel="noopener">12.新版本edge下载地址</a><br><a href="">13.</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;a href=&quot;https://www.xyboot.com/201708iqi/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;1.IQI9windows一键安装器&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;http://bbs.xiaokanba.com/do
+      
+    
+    </summary>
+    
+    
+      <category term="软件 系统 论坛 邮箱" scheme="https://qcxitong.top/categories/%E8%BD%AF%E4%BB%B6-%E7%B3%BB%E7%BB%9F-%E8%AE%BA%E5%9D%9B-%E9%82%AE%E7%AE%B1/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>各大论坛</title>
+    <link href="https://qcxitong.top/wiki/14%20copy.html"/>
+    <id>https://qcxitong.top/wiki/14%20copy.html</id>
+    <published>2020-05-16T03:46:23.564Z</published>
+    <updated>2020-05-16T03:46:23.564Z</updated>
+    
+    <content type="html"><![CDATA[<p><a href="https://www.unixhot.com/" target="_blank" rel="noopener">1.新运维</a><br><a href="https://bbs.hh010.com/" target="_blank" rel="noopener">2.鸿鹄论坛</a><br><a href="https://rrkee.com/microsoft/?tdsourcetag=s_pcqq_aiomsg" target="_blank" rel="noopener">3.微软产品在线激活</a><br><a href="https://www.cnblogs.com/yun-xx/p/10594577.html" target="_blank" rel="noopener">4.[网络克隆]利用tiny proxy实现局域网内批量安装WINDOWS操作系统</a><br><a href="http://wuyou.net/forum.php?mod=viewthread&tid=418380&extra=" target="_blank" rel="noopener">5.牛逼的key正版激活 office2019 win10、win7激活</a><br><a href="https://www.itsk.com/thread-386059-1-1.html" target="_blank" rel="noopener">6.Windows Server 2012 DHCP+WDS+WIN7+万能驱动 部署教程</a><br><a href="http://www.dnpz.net/" target="_blank" rel="noopener">7.电脑配置</a><br><a href="https://www.itsk.com/" target="_blank" rel="noopener">8.IT天空</a><br><a href="http://bbs.wuyou.net/forum.php" target="_blank" rel="noopener">9.无忧启动</a><br><a href="http://bbs.wuyou.net/forum.php?mod=viewthread&tid=416011&extra=page=1" target="_blank" rel="noopener">10.网络还原软件</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;a href=&quot;https://www.unixhot.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;1.新运维&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;https://bbs.hh010.com/&quot; target=&quot;_blank&quot; rel=&quot;noop
+      
+    
+    </summary>
+    
+    
+      <category term="软件 系统 论坛 邮箱" scheme="https://qcxitong.top/categories/%E8%BD%AF%E4%BB%B6-%E7%B3%BB%E7%BB%9F-%E8%AE%BA%E5%9D%9B-%E9%82%AE%E7%AE%B1/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>PC系统</title>
+    <link href="https://qcxitong.top/wiki/14%E7%B3%BB%E7%BB%9F%E8%BD%AF%E4%BB%B6%E8%AE%BA%E5%9D%9B%E9%82%AE%E7%AE%B1.html"/>
+    <id>https://qcxitong.top/wiki/14%E7%B3%BB%E7%BB%9F%E8%BD%AF%E4%BB%B6%E8%AE%BA%E5%9D%9B%E9%82%AE%E7%AE%B1.html</id>
+    <published>2020-05-16T03:46:23.564Z</published>
+    <updated>2020-05-16T03:46:23.564Z</updated>
+    
+    <content type="html"><![CDATA[<p><a href="https://www.centoschina.cn/downloads" target="_blank" rel="noopener">1.centos中文下载站</a><br><a href="https://www.uniontech.com/" target="_blank" rel="noopener">2.uos</a><br><a href="https://www.chinauos.com/applyfor" target="_blank" rel="noopener">3.uos</a><br><a href="https://msdn.itellyou.cn/" target="_blank" rel="noopener">4.MSDN我告诉你旧址</a><br><a href="https://next.itellyou.cn/" target="_blank" rel="noopener">5.MSDN新址</a><br><a href="https://www.deepin.org/download/" target="_blank" rel="noopener">6.深度deepin</a><br><a href="http://www.gd-linux.com/html/xiazai/desktop/" target="_blank" rel="noopener">7.中兴新支点</a><br><a href="https://ubuntu.com/" target="_blank" rel="noopener">8.Ubuntu</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;a href=&quot;https://www.centoschina.cn/downloads&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;1.centos中文下载站&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;https://www.uniontech.com/&quot; t
+      
+    
+    </summary>
+    
+    
+      <category term="软件 系统 论坛 邮箱" scheme="https://qcxitong.top/categories/%E8%BD%AF%E4%BB%B6-%E7%B3%BB%E7%BB%9F-%E8%AE%BA%E5%9D%9B-%E9%82%AE%E7%AE%B1/"/>
+    
+    
+  </entry>
+  
+</feed>
